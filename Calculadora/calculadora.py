@@ -4,7 +4,7 @@ import os
 import sys
 
 def resource_path(relative_path):
-    """Obtém o caminho absoluto para o recurso, funciona para dev e PyInstaller."""
+
     try:
         base_path = sys._MEIPASS
     except Exception:
